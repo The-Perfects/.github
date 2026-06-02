@@ -1,23 +1,23 @@
 # Allumni - Projeto Alumni
 
-O Allumni e uma plataforma de rede para ex-alunos, alunos, administradores e empregadores, pensada para aproximar a comunidade academica por meio de perfis, grupos, eventos, vagas e conexoes profissionais.
+O **Allumni** é uma plataforma de rede para ex-alunos, alunos, administradores e empregadores, pensada para aproximar a comunidade acadêmica por meio de perfis, grupos, eventos, vagas e conexões profissionais.
 
-## Sobre o projeto
+## Sobre o Projeto
 
-O sistema foi estruturado como uma aplicacao web com frontend, backend e documentacao UML. A proposta e oferecer um ambiente unico para que usuarios possam manter seus dados atualizados, participar de grupos, acompanhar eventos, divulgar oportunidades e se candidatar a vagas.
+O sistema foi estruturado como uma aplicação web com frontend, backend e documentação UML. A proposta é oferecer um ambiente único para que os usuários possam manter seus dados atualizados, participar de grupos, acompanhar eventos, divulgar oportunidades e se candidatar a vagas.
 
-## Principais funcionalidades
+## Principais Funcionalidades
 
-- Cadastro e login de usuarios.
-- Perfil de usuario com informacoes profissionais e academicas.
-- Criacao, listagem e participacao em grupos.
-- Cadastro, visualizacao e inscricao em eventos e palestras.
-- Publicacao, visualizacao e candidatura a vagas.
-- Chat privado e mensagens em grupos.
-- Painel administrativo para gerenciar usuarios, vagas, eventos e grupos.
+- Cadastro e login de usuários;
+- Perfil de usuário com informações profissionais e acadêmicas;
+- Criação, listagem e participação em grupos;
+- Cadastro, visualização e inscrição em eventos e palestras;
+- Publicação, visualização e candidatura a vagas;
+- Chat privado e mensagens em grupos;
+- Painel administrativo para gerenciar usuários, vagas, eventos e grupos;
 - Controle de administradores e status de contas.
 
-## Tecnologias
+## Tecnologias Utilizadas
 
 - Node.js
 - Express
@@ -29,15 +29,15 @@ O sistema foi estruturado como uma aplicacao web com frontend, backend e documen
 
 ## Arquitetura
 
-O projeto foi dividido em tres frentes principais:
+O projeto foi dividido em três frentes principais:
 
-- Backend: API REST responsavel pelas regras de negocio, autenticacao, persistencia e rotas administrativas.
-- Frontend: interface web estatica que consome a API e disponibiliza as telas do sistema.
-- UML: documentacao visual com diagramas de classes, casos de uso, componentes e implantacao.
+- **Backend:** API REST responsável pelas regras de negócio, autenticação, persistência e rotas administrativas.
+- **Frontend:** interface web estática que consome a API e disponibiliza as telas do sistema.
+- **UML:** documentação visual com diagramas de classes, casos de uso, componentes e implantação.
 
-## Banco de dados
+## Banco de Dados
 
-O banco SQLite contempla entidades como usuarios, perfis, vagas, candidaturas, grupos, membros de grupos, mensagens, conexoes, eventos e inscricoes em eventos.
+O banco SQLite contempla entidades como usuários, perfis, vagas, candidaturas, grupos, membros de grupos, mensagens, conexões, eventos e inscrições em eventos.
 
 ## Equipe
 
@@ -50,4 +50,4 @@ O banco SQLite contempla entidades como usuarios, perfis, vagas, candidaturas, g
 
 ## Objetivo
 
-Criar uma solucao simples, funcional e documentada para fortalecer o relacionamento entre estudantes, egressos, instituicao e mercado de trabalho.
+Criar uma solução simples, funcional e documentada para fortalecer o relacionamento entre estudantes, egressos, instituição e mercado de trabalho.
